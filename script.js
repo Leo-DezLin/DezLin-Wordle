@@ -7,7 +7,7 @@ var col = 0; //current letter for that attempt
 
 
 var gameOver = false;
-var word = "SHELL";
+var word = "MOUNT";
 
 
 window.onload = function(){
@@ -89,7 +89,7 @@ function update() {
 
         if (correct == width) {
             gameOver = true;
-            document.getElementById("answer").innerText = "You Win!";
+            document.getElementById("answer").innerText = "You Win!"
             document.body.style.cssText = ' background:linear-gradient(132deg, #f46bc8cb, #589be7); background-size:400% 400%; animation: BackgroundGradient 2s ease infinite; scroll-behavior: smooth;';
             
         }
